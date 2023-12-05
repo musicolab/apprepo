@@ -1,0 +1,79 @@
+Fri Dec 3 16:52:41 2021 +0000 0.0 basic structure
+Sat Dec 4 00:17:41 2021 +0000 0.1 basic upload functionality
+Mon Dec 13 12:58:10 2021 +0000 0.10 tag basic functionality is done
+Tue Dec 14 10:43:48 2021 +0000 0.11 roles
+Wed Dec 15 09:58:04 2021 +0000 0.12 tag management for files
+Wed Dec 15 10:52:50 2021 +0000 0.13 sql to retrieve courses for specific userid
+Wed Dec 15 13:58:27 2021 +0000 0.14 private files upload and download
+Wed Dec 15 14:12:17 2021 +0000 0.15 private files mv to private
+Wed Dec 15 14:52:21 2021 +0000 0.16 DESIGN: lms private files and course files on the left
+Wed Dec 15 15:00:09 2021 +0000 0.17 private files: metadata
+Wed Dec 15 15:12:20 2021 +0000 0.18 private files: copying to public
+Wed Dec 15 15:52:02 2021 +0000 0.19 tags management: finalized
+Sat Dec 4 01:12:35 2021 +0000 0.2 downloading from outside the server
+Wed Dec 15 16:15:27 2021 +0000 0.20 session check for all pages
+Fri Dec 17 08:22:45 2021 +0000 0.21 recovering files for courses
+Fri Dec 17 19:18:47 2021 +0000 0.22 basic user management for menus left course links
+Thu Jan 6 16:16:04 2022 +0000 0.23 tags: list of files per tag shows only public files, asteriscs for private
+Thu Jan 6 16:24:04 2022 +0000 0.24 tags: private files are shown for the current user
+Thu Jan 6 17:05:38 2022 +0000 0.25 deleting public files
+Thu Jan 6 17:27:55 2022 +0000 0.26 deleting private files
+Thu Jan 13 10:10:46 2022 +0000 0.27 public/private files: size in KB instead of MB, public files: owner is shown, non owners cannot delete or tag
+Thu Jan 13 10:11:35 2022 +0000 0.28 upload form: arch change, transition is shown while uploading
+Fri Jan 14 08:19:02 2022 +0000 0.29 private files from moodle are listed
+Wed Dec 8 10:52:23 2021 +0000 0.3 upload: all automations for mp3
+Sun Jan 16 22:46:46 2022 +0000 0.30 export public file to moodle private
+Sun Jan 16 23:35:14 2022 +0000 0.31 git tags in sysanddev.php webpage
+Mon Jan 17 00:45:11 2022 +0000 0.32 exportPublicFile.php: added code for moodle mime types, detection by extension
+Mon Jan 17 17:45:31 2022 +0000 0.33 exportPrivateFile.php
+Sun Jan 23 14:10:23 2022 +0000 0.34 copyToCourse.php: copy
+Sun Jan 23 14:16:11 2022 +0000 0.35 copyToCourse.php: move
+Sun Jan 23 14:20:14 2022 +0000 0.36 menusLeft: courses for repo, link to courses for moodle
+Thu Jan 27 22:23:11 2022 +0000 0.37 checked private
+Sun Feb 6 20:17:35 2022 +0000 0.38 metadata (public/private): genre is a select box
+Mon Feb 7 17:22:32 2022 +0000 0.39 public/private metadate update includes instruments and genres
+Wed Dec 8 12:30:20 2021 +0000 0.4 metadata basic functionality
+Thu Feb 10 09:30:39 2022 +0000 0.40 filename is not unique in the metadata table
+Thu Feb 10 09:46:24 2022 +0000 0.41 filename, owner is a unique constraint in the metadata table
+Thu Feb 10 19:53:43 2022 +0000 0.42 db based pagination: found the solution
+Thu Feb 10 21:13:21 2022 +0000 0.43 db based pagination and sorting
+Sun Feb 13 18:45:32 2022 +0000 0.44 metadata: public/private: musical content is now a select list
+Wed Feb 16 12:18:58 2022 +0000 0.45 uploadFiles: PREPARED STATEMENTS in order for the DB (not me) to handle escape seq in filenames or strings
+Thu Feb 17 19:36:43 2022 +0000 0.46 NON PUBLIC DOWNLOADS
+Thu Feb 17 20:53:21 2022 +0000 0.47 tag.php: tag creation: tags must be at least 4 digits A-Z, a-z, 0-9
+Thu Feb 17 21:03:24 2022 +0000 0.48 tag.php: deleting tags
+Fri Feb 18 15:22:03 2022 +0000 0.49 db: metadta: site is now integer
+Wed Dec 8 22:46:42 2021 +0000 0.5 password verification is discovered
+Tue Feb 22 21:38:52 2022 +0000 0.50 cannot move from public files, files that I do not own
+Thu Feb 24 21:41:07 2022 +0000 0.51 new design: files ending in 3.php use compatible design with the official site of the project
+Mon Mar 7 22:03:39 2022 +0000 0.52 upload /w AJAX and progressbar
+Tue Mar 8 19:30:02 2022 +0000 0.53 public files: waveform player
+Wed Mar 9 11:04:19 2022 +0000 0.54 menusLeft: counters
+Sat Mar 12 03:08:54 2022 +0200 0.55 record from mic.php
+Wed Mar 23 12:24:22 2022 +0200 0.56 WebRTC mic recording
+Mon Mar 28 13:15:09 2022 +0300 0.57 db: metadata: key, scale
+Mon Apr 4 22:27:31 2022 +0300 0.58 saving autotagging info
+Mon Apr 4 22:56:19 2022 +0300 0.59 ONLY ONE AUTOTAGGER CAN BE RUNNING
+Wed Dec 8 23:10:17 2021 +0000 0.6 index.php + password verification form
+Tue Apr 5 21:57:48 2022 +0300 0.60 menusLeft: courses from moodle
+Tue Apr 12 22:22:47 2022 +0300 0.61 record from multitrack
+Tue Apr 12 22:22:59 2022 +0300 0.62 fingerprint recognition
+Wed Apr 13 12:14:23 2022 +0300 0.63 waveform player shows metadata in public files
+Thu Apr 21 01:41:15 2022 +0300 0.64 multitrack startall, stopall buttons
+Tue May 17 13:03:01 2022 +0300 0.65 installed VHV
+Wed May 18 10:38:25 2022 +0300 0.66 content search: first blob upload
+Wed May 18 23:41:13 2022 +0300 0.67 record from mic using webrtc
+Wed May 25 17:18:18 2022 +0300 0.68 private files: download files
+Wed May 25 17:18:36 2022 +0300 0.69 private files: playing files
+Thu Dec 9 12:16:39 2021 +0000 0.7 tags management, tags filelist, tags renaming
+Wed May 25 19:58:58 2022 +0300 0.70 multitrack alpha
+Fri May 27 00:20:25 2022 +0300 0.71 multitrack beta
+Fri May 27 12:42:17 2022 +0300 0.72 content search similarity: alpha
+Mon May 30 11:46:09 2022 +0300 0.73 content search similarity: workflow is complete, and so is visualization
+Tue May 31 10:17:42 2022 +0300 0.74 record from mic no sidemenu for integration with vhv (iframe)
+Tue May 31 13:45:11 2022 +0300 0.75 logout is gracefull: changes in session take effect immediately
+Tue May 31 23:54:09 2022 +0300 0.76 navbar at the top that toggles
+Wed Jun 1 22:00:22 2022 +0300 0.77 content similarity: link lenght == weigth
+Sun Jun 19 23:08:51 2022 +0300 0.78 syncronization: uplading midi file (score) and blob (wavesurfer audio)
+Mon Dec 13 12:00:10 2021 +0000 0.8 setting up external authentication, that is outside the moodle
+Mon Dec 13 12:33:39 2021 +0000 0.9 logout is done
