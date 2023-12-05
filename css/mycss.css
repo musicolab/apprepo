@@ -1,0 +1,68 @@
+hr{
+	margin:0px 0px 0px 0px
+	border-color:white;
+	background-color:black;
+	height:1px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family:"Segoe UI",Arial,sans-serif;
+}
+body{
+	font-family:"Segoe UI",Arial,sans-serif;
+	background-color:#bbb;
+	/*background-image:url("trianglify.png");*/
+	text-size:12px;
+}
+.container{
+	background-color:white;
+	margin-top: 5px;
+	border-radius: 1px 1px 1px 4px;
+}
+.navbar-default{
+	background-color:#edf4fb;
+	border-color:#adceed;
+	margin-top:10px;
+}
+.navbar{
+	margin-bottom:10px;
+}
+.panel-default>.panel-heading {
+	background-color:#edf4fb;
+	border-color:#adceed;
+	color:black;
+}
+.panel{
+	margin-bottom:10px;
+}
+.panel-default {
+	border-color:#adceed;
+}
+.navbar-default .navbar-nav>li>a {
+	color: black;
+	text-decoration: none;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	color: black;
+	text-decoration: underline;
+}
+a:link{
+	text-decoration:none;
+}
+.dropdown-menu>li>a{
+	color:black;
+	text-decoration:none;
+}
+.dropdown-menu{
+	background-color:white;
+	font-size:16px;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	background-color:#f4b426;
+	color:black;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background-color:#f4b426;
+	color:black;
+}
